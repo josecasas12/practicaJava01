@@ -16,12 +16,18 @@ codigo a ejecutar si se cumple la condicion
 }
 */
 
-
-const edad = parseInt(prompt('ingresa tu edad'))
+const edad = parseInt(prompt("ingresa tu edad"));
 console.log(edad);
+console.log(isNaN("hola")); //true
+console.log(isNaN("18"));
 
-if(edad >= 18){
-    document.writeln('sos mayor de edad')
-}else{
-    document.writeln('sos menor de edad')
+if (isNaN(edad)) {
+  document.writeln("edad no valida");
+} else {
+  //aqui estoy seguro de que estoy trabajando con un numero
+    if (edad >= 18) {
+      document.writeln("sos mayor de edad");
+    } else {
+      document.writeln("sos menor de edad");
+    }
 }
