@@ -24,3 +24,6 @@ const taiga =
   document.writeln(taiga)
   document.writeln('un poco de texto')
   
+  let curso = 'fullstack MERN'
+
+  document.writeln('<br>'+curso)
