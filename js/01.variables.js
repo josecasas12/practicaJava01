@@ -27,5 +27,16 @@ document.writeln("un poco de texto");
 let curso = "fullstack MERN";
 
 document.writeln("<br>" + curso);
-curso = 'nextjs'
+
+curso = "nextjs";
+
 document.writeln("<br>" + curso);
+const anio = 2025; //number
+const encendido = false; //bolean
+
+//solicitar al usuario su nombre y saludarlo por pantalla
+
+const nombreUsuario = prompt("ingresa tu nombre");
+console.log(nombreUsuario);
+document.writeln(' <br> Bienvenido ' + nombreUsuario )
+document.writeln(`<br> Hola ${nombreUsuario}`)
