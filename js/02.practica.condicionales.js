@@ -3,7 +3,7 @@
 //entre 18 y 69 anos estas obligado a votar
 //16 y 17 , y mayores de 70 es optativo
 
-let edad = parseInt(prompt("ingresa tu edad"));
+const edad = parseInt(prompt("ingresa tu edad"));
 
 console.log(edad);
 
